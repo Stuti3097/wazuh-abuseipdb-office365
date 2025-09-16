@@ -1,0 +1,16 @@
+<!-- Local rules -->
+
+<!-- Modify it at your will. -->
+<!-- Copyright (C) 2015, Wazuh Inc. -->
+
+<!-- Example -->
+
+<group name="local,abuseipdb,office365,">
+<!-- Rule for Office 365 mailbox audit events with AbuseIPDB match -->
+<rule id="100010" level="12">
+	<field name="abuseipdb.source.rule" type="pcre2">^91534$</field>
+	<field name="abuseipdb.abuse_confidence_score" type="pcre2" negate="yes">^0$</field>
+	<description>AbuseIPDB detected from IP $(abuseipdb.source.srcip) with $(abuseipdb.abuse_confidence_score)% confidence of abusse. ISP: $(abuseipdb.isp), Domain: $(abuseipdb.domain), Country: $(abuseipdb.country_code)</description>
+	<group>office365_alerts,abuseipdb,authentication_failed,</group>
+</rule>
+</group>
