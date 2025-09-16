@@ -33,7 +33,6 @@ This helps security teams quickly identify suspicious login attempts and priorit
 
 ## Prerequisites
 
-* **Wazuh Manager** v4.7.0 or later
 * **Office 365 integration** enabled in Wazuh (logs forwarded and parsed)
 * **AbuseIPDB API key** (register at [AbuseIPDB](https://www.abuseipdb.com/))
 * Tested on **Wazuh version 4.12**
