@@ -121,6 +121,8 @@ Steps:
 ```
 
 3. Confirm the Wazuh Dashboard shows enriched alerts.
+<img width="1919" height="892" alt="image" src="https://github.com/user-attachments/assets/ea841b6f-58d8-4324-94b2-6f4931b25b3c" />
+
 
 ---
 
