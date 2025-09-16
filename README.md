@@ -44,8 +44,7 @@ This helps security teams quickly identify suspicious login attempts and priorit
 
 ### Installing Wazuh
 
-A standard Wazuh installation is assumed. If Wazuh is not installed, follow the official guide:
-👉 [Wazuh Installation Documentation](https://documentation.wazuh.com/current/installation-guide/index.html)
+A standard Wazuh installation is assumed. If Wazuh is not installed, follow the official guide: [Wazuh Installation Documentation](https://documentation.wazuh.com/current/installation-guide/index.html)
 
 ### Initial Wazuh Configuration
 
