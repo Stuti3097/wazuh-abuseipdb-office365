@@ -34,6 +34,8 @@ integrations/
     │       └── local_rules.xml
     ├── integrations/
     │   └── custom-abuseipdb.py
+    ├── images/
+    │   └── Screenshot.png
     └── README.md
 ```
 
