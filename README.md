@@ -1,9 +1,9 @@
-# AbuseIPDB Office 365 Integration
+#  AbuseIPDB integration for Microsoft Office 365 events
 
 ## Overview
+The default AbuseIPDB integration example provided by Wazuh enriches alerts using the generic `srcip` field.
 
-This integration enriches **Office 365 failed login events** in Wazuh with **IP reputation data from AbuseIPDB**.
-
+This integration is specifically designed for **Microsoft Office 365 logs**. It extracts the `ClientIP` or `ClientIPAddress` field from Office 365 failed login events and enriches those events with **AbuseIPDB reputation dat**a.
 When a failed login is detected in Office 365 logs, the source IP (`ClientIP` or `ClientIPAddress`) is automatically queried against AbuseIPDB. If the IP has a high abuse confidence score, Wazuh generates an enriched alert including:
 
 * Abuse confidence score
